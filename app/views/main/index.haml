@@ -1,0 +1,42 @@
+%body
+  %section{:style => "display: flex; flex-direction: column; margin: 10px;"}
+    %div{:style => "margin: 10px;"}
+      %label Please enter your URL:
+      %br/
+      %input#id_1.input-url{:type => "url"}/
+    %div{:style => "margin: 10px;"}
+      %label Please enter your URL:
+      %br/
+      %input#id_2.input-url{:type => "url"}/
+    %div{:style => "margin: 10px;"}
+      %label Please enter your URL:
+      %br/
+      %input#id_3.input-url{:type => "url"}/
+    %div{:style => "margin: 10px;"}
+      %label Please enter your URL:
+      %br/
+      %input#id_4.input-url{:type => "url"}/
+    %div{:style => "margin: 10px;"}
+      %label Please enter your URL:
+      %br/
+      %input#id_5.input-url{:type => "url"}/
+    %div
+      %label
+        %input.toggle-checkbox{:type => "checkbox"}/
+  %section
+    %h2 Preview
+    .Preview{:style => "min-height: 150px;"}
+      %a#cid_1{:href => "", :target => "_blank"}
+        %img.Logo{:src => ""}/
+      %a#cid_2{:href => "", :target => "_blank"}
+        %img.Logo{:src => ""}/
+      %a#cid_3{:href => "", :target => "_blank"}
+        %img.Logo{:src => ""}/
+      %a#cid_4{:href => "", :target => "_blank"}
+        %img.Logo{:src => ""}/
+      %a#cid_5{:href => "", :target => "_blank"}
+        %img.Logo{:src => ""}/
+    %h2
+      Code
+    %textarea{:style => "width:80%; height: 200px;"}
+      :preserve
